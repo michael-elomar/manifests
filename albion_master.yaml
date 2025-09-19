@@ -29,6 +29,10 @@ repositories:
     type: git
     url: git@github.com:michael-elomar/busybox.git
     version: 1_36_stable
+  packages/systemd:
+    type: git
+    url: git@github.com:michael-elomar/systemd.git
+    version: master
   products/albion:
     type: git
     url: git@github.com:michael-elomar/albion-product.git
