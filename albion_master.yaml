@@ -6,6 +6,10 @@ repositories:
     shell: |
       ln -s .env/shell shell
       ln -s .env/qemu.sh qemu.sh
+  .env/manifests:
+    type: git
+    url: git@github.com:michael-elomar/manifests.git
+    version: master
   build/alchemy:
     type: git
     url: git@github.com:michael-elomar/alchemy.git
