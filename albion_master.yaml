@@ -32,7 +32,7 @@ repositories:
   packages/systemd:
     type: git
     url: git@github.com:michael-elomar/systemd.git
-    version: master
+    version: main
   products/albion:
     type: git
     url: git@github.com:michael-elomar/albion-product.git
