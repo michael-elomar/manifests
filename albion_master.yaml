@@ -1,0 +1,30 @@
+repositories:
+  .env:
+    type: git
+    url: git@github.com:michael-elomar/albion-env.git
+    version: master
+    shell: |
+      ln -s .env/shell shell
+      ln -s .env/qemu.sh qemu.sh
+  build/alchemy:
+    type: git
+    url: git@github.com:michael-elomar/alchemy.git
+    version: master
+  build/dragon_build:
+    type: git
+    url: git@github.com:michael-elomar/dragon_build.git
+    version: master
+    shell: |
+      ln -s build/dragon_build/root-build.sh build.sh
+  packages/linux:
+    type: git
+    url: git@github.com:michael-elomar/rpi-linux.git
+    version: rpi-6.12.y
+  packages/busybox:
+    type: git
+    url: git@github.com:michael-elomar/busybox.git
+    version: 1_36_stable
+  products/albion:
+    type: git
+    url: git@github.com:michael-elomar/albion-product.git
+    version: master
