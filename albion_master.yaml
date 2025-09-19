@@ -6,6 +6,7 @@ repositories:
     shell: |
       ln -s .env/shell shell
       ln -s .env/qemu.sh qemu.sh
+      ls -s .env/init init
   .env/manifests:
     type: git
     url: git@github.com:michael-elomar/manifests.git
