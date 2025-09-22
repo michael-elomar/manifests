@@ -1,0 +1,21 @@
+repositories:
+  build/alchemy:
+    type: git
+    url: git@github.com:michael-elomar/alchemy.git
+    version: master
+  build/dragon_build:
+    type: git
+    url: git@github.com:michael-elomar/dragon_build.git
+    version: master
+  packages/gtk:
+    type: git
+    url: git@github.com:michael-elomar/gtk-4.20.1.git
+    version: master
+  packages/pandorad:
+    type: git
+    url: git@github:michael-elomar/pandorad.git
+    version: master
+  products/pandora:
+    type: git
+    url: git@github.com:michael-elomar/pandora-product.git
+    version: master
